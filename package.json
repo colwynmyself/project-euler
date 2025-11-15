@@ -1,0 +1,25 @@
+{
+  "name": "project-euler",
+  "version": "0.0.0",
+  "description": "Solutions for the problems at <https://projecteuler.net/archives>.",
+  "homepage": "https://github.com/colwynmyself/project-euler#readme",
+  "bugs": {
+    "url": "https://github.com/colwynmyself/project-euler/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/colwynmyself/project-euler.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
