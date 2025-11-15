@@ -1,6 +1,6 @@
 // Among the first 231 thousand square numbers, what is the sum of all the odd squares?
 
-function main() {
+(() => {
   const highestSquare = 231_000;
 
   let sum = 0;
@@ -13,6 +13,4 @@ function main() {
   }
 
   console.log(sum);
-}
-
-main();
+})();
